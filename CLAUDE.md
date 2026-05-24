@@ -1,0 +1,1 @@
+# Use common data for portfolio from data.ts and update in both homepage preview sections and individual page of that preview.
