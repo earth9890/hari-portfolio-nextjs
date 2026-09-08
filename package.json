@@ -35,11 +35,5 @@
   "overrides": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
-  },
-  "pnpm": {
-    "overrides": {
-      "brace-expansion": "5.0.9",
-      "postcss": "8.5.23"
-    }
   }
 }
