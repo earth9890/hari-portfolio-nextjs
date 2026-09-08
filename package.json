@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "dev:network": "HOSTNAME=0.0.0.0 next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "dev:network": "node init && HOSTNAME=0.0.0.0 next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -35,11 +35,5 @@
   "overrides": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
-  },
-  "pnpm": {
-    "overrides": {
-      "brace-expansion": "5.0.9",
-      "postcss": "8.5.23"
-    }
   }
 }
